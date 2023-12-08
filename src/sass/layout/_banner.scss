@@ -1,0 +1,32 @@
+@use '../abstracts/' as *;
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    line-height: 1;
+    text-align: center;
+    font-size: $fs-body-xlarge;
+    font-weight: $fw-large;
+    margin: 6rem 0;
+
+    span {
+      font-family: $ff-poppins;
+      font-weight: $fw-small;
+      font-size: $fs-body-small;
+    }
+
+  }
+
+  @include breakpoint-up(large) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &__heading {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@use '../abstracts/' as *;
+
+.banner2 {
+  background-color: $basic-990;
+  padding-block: 4rem;
+
+  .content {
+    .label {
+      justify-content: center;
+
+      h4 {
+        color: $basic-50;
+      }
+    }
+
+    .banner2__title {
+      color: $basic-50;
+      text-align: center;
+    }
+
+    .banner2__paragraph {
+      color: $basic-100;
+      margin-inline: auto;
+      text-align: center;
+
+      @include breakpoint-up(large) {
+        width: 40%;
+      }
+    }
+  }
+
+  .wrapper-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .arrow4 {
+      position: absolute;
+      top: -2rem;
+      left: 33rem;
+      opacity: 0.8;
+    }
+  }
+}

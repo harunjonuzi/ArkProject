@@ -1,0 +1,124 @@
+@use '../abstracts/' as *;
+
+.hero {
+  position: relative;
+
+  @include breakpoint-up(large) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__left {
+      width: 58%;
+    }
+
+    &__right {
+      width: 38%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  // hide-for-mobile
+  &__threelines {
+    position: absolute;
+    transform: rotate(120deg) scale(0.8);
+    top: -2rem;
+    left: 19rem;
+  }
+
+  &__title {
+
+    span {
+      position: relative;
+
+      .title-line {
+        position: absolute;
+        width: 10rem;
+        height: 2px;
+        top: 2rem;
+        color: $clr-main;
+        background-color: $clr-main;
+        bottom: 0.6rem;
+        left: 0;
+        z-index: -100;
+
+        @include breakpoint-up(large) {
+          height: 4px;
+          width: 14rem;
+          left: 0.1rem;
+          top: 2.8rem;
+        }
+      }
+    }
+  }
+
+  &__buttons {
+    button {
+      z-index: -5;
+
+      @include breakpoint-down(medium) {
+        padding: 0.4rem 1.4rem;
+      }
+    }
+  }
+
+  &__schedule {
+    display: flex;
+    align-items: center;
+    position: relative;
+    opacity: 0.7;
+    margin-top: 7rem;
+
+    @include breakpoint-down(medium) {
+      display: none;
+    }
+
+    span {
+      padding-inline-start: 0.5rem;
+    }
+
+    .decorArrow1 {
+      position: absolute;
+      top: -6rem;
+      left: -7rem;
+    }
+  }
+
+  &__right {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 50%;
+      /* Center vertically */
+      left: 50%;
+      /* Center horizontally */
+      transform: translate(-50%, -50%);
+      background-color: $main-500;
+      border-radius: 50%;
+      filter: blur(50px);
+      z-index: -1;
+      opacity: 0.7;
+
+      @include breakpoint-up(large) {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+
+  &__img {
+    width: 20rem;
+    margin-inline: auto;
+
+    @include breakpoint-down(medium) {
+      margin-top: 4rem;
+    }
+  }
+}

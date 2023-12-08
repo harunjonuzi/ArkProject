@@ -1,0 +1,55 @@
+@use '../abstracts/' as *;
+
+.blog {
+  position: relative;
+
+  &__heading {
+    margin-bottom: 8rem;
+
+    .label {
+      justify-content: center;
+    }
+
+    .blog__title {
+      text-align: center;
+    }
+
+    .blog__paragraph {
+      text-align: center;
+      margin-inline: auto;
+      width: 60ch;
+
+      @include breakpoint-down(medium) {
+        width: auto;
+      }
+    }
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+
+    .blog__cards {
+
+
+      @include breakpoint-up(large) {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+      }
+
+      @include breakpoint-down(medium) {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+      }
+    }
+
+    .blog__img {
+      place-self: center;
+    }
+  }
+}

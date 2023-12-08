@@ -1,0 +1,72 @@
+@use '../abstracts/' as *;
+
+.services {
+  position: relative;
+
+  &__heading {
+    .services__right {
+      display: flex;
+      justify-content: center;
+    }
+
+    .services__right {
+      @include breakpoint-down(medium) {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  @include breakpoint-up(large) {
+
+    &__background {
+      left: 12rem;
+      top: 5rem;
+    }
+
+    // 1
+    &__heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .services__left {
+        width: 50%;
+
+        .content {
+
+          .label {
+            margin-right: auto;
+          }
+
+          .title {
+            margin-right: auto;
+          }
+
+          .paragraph {
+            text-align: left;
+          }
+        }
+      }
+
+      .services__right {
+        width: 20%;
+        place-self: flex-end;
+      }
+    }
+
+    // 2
+    &__cards {
+      padding-top: 5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

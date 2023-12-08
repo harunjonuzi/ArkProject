@@ -1,0 +1,57 @@
+@use 'mixins' as *;
+
+:root {
+  --section-small: 8rem;
+  --section-medium: 16rem;
+  --section-big: 24rem;
+  --section-default: 12.5rem;
+
+  @include below(1100px) {
+    --section-default: 8rem;
+    --section-small: 6.4rem;
+    --section-medium: 12rem;
+    --section-big: 16rem;
+  }
+
+  @include below(700px) {
+    --section-small: 4rem;
+    --section-medium: 8rem;
+    --section-big: 12rem;
+  }
+}
+
+.section--default--margin {
+  margin-bottom: var(--section-default);
+}
+
+// Padding
+.section--small--padding {
+  padding-top: var(--section-small);
+  padding-bottom: var(--section-small);
+}
+
+.section--medium--padding {
+  padding-top: var(--section-medium);
+  padding-bottom: var(--section-medium);
+}
+
+.section--big--padding {
+  padding-top: var(--section-big);
+  padding-bottom: var(--section-big);
+}
+
+// Margins
+.section--small--margin {
+  margin-top: var(--section-small) !important;
+  margin-bottom: var(--section-small) !important;
+}
+
+.section--medium--margin {
+  margin-top: var(--section-medium);
+  margin-bottom: var(--section-medium);
+}
+
+.section--big--margin {
+  margin-top: var(--section-big);
+  margin-bottom: var(--section-big);
+}

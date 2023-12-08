@@ -1,0 +1,19 @@
+@use '../abstracts/' as *;
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: rem(25);
+
+  @include breakpoint-up(large) {
+    justify-content: flex-start;
+  }
+
+  &__dash {
+    width: 5rem;
+    height: 2px;
+    background-color: $clr-main;
+    margin-inline: 1.5rem;
+  }
+}

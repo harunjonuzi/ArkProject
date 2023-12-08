@@ -1,0 +1,88 @@
+@use '../abstracts' as *;
+
+body {
+  font-family: $ff-poppins;
+  font-size: $fs-body-medium;
+  font-weight: $fw-small;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 2;
+  margin-bottom: rem(25);
+
+  @include breakpoint-down(medium) {
+    text-align: center;
+  }
+}
+
+a {
+  color: $basic-900;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul,
+ol {
+  margin-left: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $ff-season;
+  font-weight: $fw-large;
+}
+
+h1,
+.h1 {
+  @include fluid-type(390px, 1440px, 32px, 54px);
+  line-height: 1.5;
+  margin-bottom: rem(25);
+
+  @include breakpoint-down(medium) {
+    text-align: center;
+  }
+}
+
+h2,
+.h2 {
+  @include fluid-type(390px, 1440px, 32px, 45px);
+  line-height: 1.5;
+  margin-bottom: rem(25);
+
+  @include breakpoint-down(medium) {
+    text-align: center;
+  }
+}
+
+// h3,
+// .h3 {
+//   @include fluid-type(390px, 1440px, 32px, 45px);
+//   line-height: 1.5;
+//   margin-bottom: 2rem;
+// }
+
+h4,
+.h4 {
+  font-family: $ff-poppins;
+  font-size: $fs-body-small;
+  font-weight: $fw-small;
+}
