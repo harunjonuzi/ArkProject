@@ -17,12 +17,12 @@ btnHamburger.addEventListener("click", () => {
       navigationMobile.classList.remove("hide");
       overlay.classList.add("fade-in");
       overlay.classList.remove("fade-out");
-      body.style.overflow = "hidden";
+      // body.style.overflow = "hidden";
    } else {
       overlay.classList.remove("fade-in");
       overlay.classList.add("fade-out");
       navigationMobile.classList.add("hide");
-      body.style.overflow = "";
+      // body.style.overflow = "";
    }
 });
 
@@ -52,14 +52,14 @@ nextButton.addEventListener("click", () => {
 ////////////////////////////////////////
 // 🔖 Lenis Smooth Scrolling
 ////////////////////////////////////////
-// const lenis = new Lenis();
+const lenis = new Lenis();
 
-// lenis.on("scroll", (e) => {
-//    console.log(e);
-// });
+lenis.on("scroll", (e) => {
+   console.log(e);
+});
 
-// function raf(time) {
-//    lenis.raf(time);
-//    requestAnimationFrame(raf);
-// }
-// requestAnimationFrame(raf);
+function raf(time) {
+   lenis.raf(time);
+   requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);

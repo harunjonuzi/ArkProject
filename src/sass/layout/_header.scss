@@ -1,13 +1,14 @@
 @use "../abstracts" as *;
 
 header {
+
   .overlay {
     z-index: 99;
     position: fixed;
     top: calc(20px + 64px);
-    bottom: 0;
     left: 0;
-    right: 0;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient($clr-black-900, transparent);
   }
 
@@ -15,11 +16,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
     @include breakpoint-up(large) {
-      margin-bottom: 7rem;
+      margin-bottom: 5rem;
     }
 
     &.open {
@@ -81,7 +81,7 @@ header {
       position: absolute;
       top: 100px;
       width: 90%;
-      z-index: 100;
+      // z-index: 100;
       padding-block: 2rem;
       background-color: $clr-white-50;
       border-radius: 0.7rem;

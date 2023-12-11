@@ -21,79 +21,77 @@
 </head>
 
 <body>
-   <header>
-      <div class="container">
-         <div class="overlay fade-out"></div>
-         <nav class="nav">
-            <a href="index.html" class="nav__logo">
-               <img src="icons/logo.svg" alt="Ark Project Logo" />
+   <header class="container">
+      <!-- <div class="overlay fade-out"></div> -->
+      <nav class="nav">
+         <a href="index.html" class="nav__logo">
+            <img src="icons/logo.svg" alt="Ark Project Logo" />
+         </a>
+
+         <!-- Mobile Section -->
+         <button class="nav__menu" id="btnHamburger" type="button" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+
+         <div class="nav__mobile hide">
+            <ul class="nav__links">
+               <li>
+                  <a class="nav__link" href="#home">Home</a>
+               </li>
+               <li>
+                  <a class="nav__link" href="#about">About Us</a>
+               </li>
+               <li>
+                  <a class="nav__link" href="#pricing">Pricing</a>
+               </li>
+               <li>
+                  <a class="nav__link" href="#contact">Contact</a>
+               </li>
+            </ul>
+
+            <!-- 4 -->
+            <a href="#" class="button button--black nav__button">
+               <span>
+                  <span>Call Us</span>
+               </span>
+               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round" />
+               </svg>
             </a>
+         </div>
 
-            <!-- Mobile Section -->
-            <button class="nav__menu" id="btnHamburger" type="button" aria-label="Toggle navigation">
-               <span></span>
-               <span></span>
-               <span></span>
-            </button>
+         <!-- Desktop Section -->
+         <div class="nav__desktop">
+            <ul class="nav__links">
+               <li>
+                  <a class="nav__link" href="#home">Home</a>
+               </li>
+               <li>
+                  <a class="nav__link" href="#about">About Us</a>
+               </li>
+               <li>
+                  <a class="nav__link" href="#pricing">Pricing</a>
+               </li>
+               <li>
+                  <a class="nav__link" href="#contact">Contact</a>
+               </li>
+            </ul>
 
-            <div class="nav__mobile hide">
-               <ul class="nav__links">
-                  <li>
-                     <a class="nav__link" href="#home">Home</a>
-                  </li>
-                  <li>
-                     <a class="nav__link" href="#about">About Us</a>
-                  </li>
-                  <li>
-                     <a class="nav__link" href="#pricing">Pricing</a>
-                  </li>
-                  <li>
-                     <a class="nav__link" href="#contact">Contact</a>
-                  </li>
-               </ul>
-
-               <!-- 4 -->
-               <a href="#" class="button button--black nav__button">
-                  <span>
-                     <span>Call Us</span>
-                  </span>
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-               </a>
-            </div>
-
-            <!-- Desktop Section -->
-            <div class="nav__desktop">
-               <ul class="nav__links">
-                  <li>
-                     <a class="nav__link" href="#home">Home</a>
-                  </li>
-                  <li>
-                     <a class="nav__link" href="#about">About Us</a>
-                  </li>
-                  <li>
-                     <a class="nav__link" href="#pricing">Pricing</a>
-                  </li>
-                  <li>
-                     <a class="nav__link" href="#contact">Contact</a>
-                  </li>
-               </ul>
-
-               <!-- 6 -->
-               <a href="#" class="button button--black hide-for-mobile">
-                  <span>
-                     <span>Call Us</span>
-                  </span>
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-               </a>
-            </div>
-         </nav>
-      </div>
+            <!-- 6 -->
+            <a href="#" class="button button--black hide-for-mobile">
+               <span>
+                  <span>Call Us</span>
+               </span>
+               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round" />
+               </svg>
+            </a>
+         </div>
+      </nav>
    </header>
 
    <body>

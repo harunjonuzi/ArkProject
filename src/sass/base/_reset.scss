@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 100%;
+  overflow: auto;
 }
 
 /* Box sizing rules */
@@ -23,7 +24,7 @@ html {
 
 /* Set core body defaults */
 body {
-  min-height: 100dvh;
+  height: 100vh;
 }
 
 /* Make images easier to work with */
