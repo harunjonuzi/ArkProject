@@ -109,12 +109,3 @@ $breakpoints-down: (
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-@mixin paragraph($align) {
-  font-size: $fs-body-base;
-  color: $clr-black-800;
-  line-height: 2rem;
-  margin-inline: auto;
-  padding: 2rem 0;
-  text-align: $align;
-}

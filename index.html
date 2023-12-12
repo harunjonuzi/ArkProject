@@ -10,95 +10,97 @@
    <link rel="preconnect" href="https://fonts.googleapis.com" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet" />
-   <!-- 300, 400, 700 -->
+   <!-- Custom Generated Adobe Font 300, 400, 700 -->
    <link rel="stylesheet" href="https://use.typekit.net/zzj6ujq.css" />
    <link rel="stylesheet" href="dist/assets/index-jABFcphY.css">
 
    <!-- Scripts -->
-   <script type="module" src="app/main.js"></script>
+   <script type="module" src="app/script.js"></script>
 
    <title>Ark Partner</title>
 </head>
 
 <body>
-   <header class="container">
-      <!-- <div class="overlay fade-out"></div> -->
-      <nav class="nav">
-         <a href="index.html" class="nav__logo">
-            <img src="icons/logo.svg" alt="Ark Project Logo" />
-         </a>
-
-         <!-- Mobile Section -->
-         <button class="nav__menu" id="btnHamburger" type="button" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-         </button>
-
-         <div class="nav__mobile hide">
-            <ul class="nav__links">
-               <li>
-                  <a class="nav__link" href="#home">Home</a>
-               </li>
-               <li>
-                  <a class="nav__link" href="#about">About Us</a>
-               </li>
-               <li>
-                  <a class="nav__link" href="#pricing">Pricing</a>
-               </li>
-               <li>
-                  <a class="nav__link" href="#contact">Contact</a>
-               </li>
-            </ul>
-
-            <!-- 4 -->
-            <a href="#" class="button button--black nav__button">
-               <span>
-                  <span>Call Us</span>
-               </span>
-               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2" stroke-linecap="round"
-                     stroke-linejoin="round" />
-               </svg>
+   <header>
+      <div class="container">
+         <div class="overlay fade-out"></div>
+         <nav class="nav">
+            <a href="index.html" class="nav__logo">
+               <img src="icons/logo.svg" alt="Ark Project Logo" />
             </a>
-         </div>
 
-         <!-- Desktop Section -->
-         <div class="nav__desktop">
-            <ul class="nav__links">
-               <li>
-                  <a class="nav__link" href="#home">Home</a>
-               </li>
-               <li>
-                  <a class="nav__link" href="#about">About Us</a>
-               </li>
-               <li>
-                  <a class="nav__link" href="#pricing">Pricing</a>
-               </li>
-               <li>
-                  <a class="nav__link" href="#contact">Contact</a>
-               </li>
-            </ul>
+            <!-- Mobile Section -->
+            <button class="nav__menu" id="btnHamburger" type="button" aria-label="Toggle navigation">
+               <span></span>
+               <span></span>
+               <span></span>
+            </button>
 
-            <!-- 6 -->
-            <a href="#" class="button button--black hide-for-mobile">
-               <span>
-                  <span>Call Us</span>
-               </span>
-               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2" stroke-linecap="round"
-                     stroke-linejoin="round" />
-               </svg>
-            </a>
-         </div>
-      </nav>
+            <div class="nav__mobile hide">
+               <ul class="nav__links">
+                  <li>
+                     <a class="nav__link" href="#home">Home</a>
+                  </li>
+                  <li>
+                     <a class="nav__link" href="#about">About Us</a>
+                  </li>
+                  <li>
+                     <a class="nav__link" href="#pricing">Pricing</a>
+                  </li>
+                  <li>
+                     <a class="nav__link" href="#contact">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- 4 -->
+               <a href="#" class="button button--black nav__button">
+                  <span>
+                     <span>Call Us</span>
+                  </span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+               </a>
+            </div>
+
+            <!-- Desktop Section -->
+            <div class="nav__desktop">
+               <ul class="nav__links">
+                  <li>
+                     <a class="nav__link" href="#home">Home</a>
+                  </li>
+                  <li>
+                     <a class="nav__link" href="#about">About Us</a>
+                  </li>
+                  <li>
+                     <a class="nav__link" href="#pricing">Pricing</a>
+                  </li>
+                  <li>
+                     <a class="nav__link" href="#contact">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- 6 -->
+               <a href="#" class="button button--black hide-for-mobile">
+                  <span>
+                     <span>Call Us</span>
+                  </span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+               </a>
+            </div>
+         </nav>
+      </div>
    </header>
 
    <body>
       <!-- hero -->
-      <section>
+      <section class="section--default--margin">
          <div class="container">
-            <div class="hero section--default--margin">
+            <div class="hero">
                <section class="hero__left">
                   <div class="hero__threelines hide-for-mobile">
                      <svg width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -188,9 +190,9 @@
       </section>
 
       <!-- welcome -->
-      <section>
+      <section class="section--default--margin">
          <div class="container">
-            <div class="welcome section--default--margin">
+            <div class="welcome">
                <div class="welcome__right">
 
                   <div class="label">
@@ -244,9 +246,9 @@
       </section>
 
       <!-- banner -->
-      <section>
+      <section class="section--default--margin">
          <div class="container">
-            <div class="banner section--default--margin">
+            <div class="banner">
                <img class="banner__img" src="images/gibbons.png" alt="" />
                <h3 class="banner__heading">
                   Chad Gibbons <br />
@@ -258,9 +260,9 @@
       </section>
 
       <!-- services -->
-      <section>
+      <section class="section--default--margin">
          <div class="container">
-            <div class="services section--default--margin">
+            <div class="services">
 
                <div class="services__heading">
                   <!-- 1 -->
@@ -463,9 +465,9 @@
       </section>
 
       <!-- projects -->
-      <section>
+      <section class="section--default--margin">
          <div class="container">
-            <div class="projects section--default--margin">
+            <div class="projects">
 
                <!-- 1 -->
                <div class="projects__heading">
@@ -642,9 +644,9 @@
       </section>
 
       <!-- feedback -->
-      <section>
+      <section class="section--default--margin">
          <div class="container">
-            <div class="feedback section--default--margin">
+            <div class="feedback">
                <div class="feedback__background"></div>
 
                <!-- 1 -->
@@ -815,8 +817,8 @@
       </section>
 
       <!-- banner2 -->
-      <section>
-         <div class="banner2 section--default--margin">
+      <section class="section--default--margin">
+         <div class="banner2">
 
             <!-- 1 -->
             <div class="content">
@@ -854,161 +856,165 @@
       </section>
 
       <!-- blog -->
-      <section>
-         <div class="blog container">
-            <div class="blog__heading">
-               <div class="label">
-                  <h4>07</h4>
-                  <div class="label__dash"></div>
-                  <h4>Our Blog</h4>
+      <section class="section--default--margin">
+         <div class="container">
+
+            <div class="blog">
+               <div class="blog__heading">
+                  <div class="label">
+                     <h4>07</h4>
+                     <div class="label__dash"></div>
+                     <h4>Our Blog</h4>
+                  </div>
+
+                  <h2 class="blog__title">Latest Blog & Articles</h2>
+
+                  <p class="blog__paragraph">
+                     Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Odit officiis quos
+                     veritatis adipisci, odio consequuntur
+                     et officia itaque earum.
+                  </p>
                </div>
 
-               <h2 class="blog__title">Latest Blog & Articles</h2>
+               <div class="blog__body">
+                  <div class="blog__cards">
+                     <div class="card2">
+                        <div class="card2__img">
+                           <img src="images/project1.png" alt="" />
+                        </div>
 
-               <p class="blog__paragraph">
-                  Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Odit officiis quos
-                  veritatis adipisci, odio consequuntur
-                  et officia itaque earum.
-               </p>
+                        <div class="card2__body">
+                           <h4 class="card2__title">I love</h4>
+                           <p class="card2__paragraph">
+                              Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit.
+                              Facilis, et suscipit quod, deleniti
+                              culpa rerum repellat asperiores
+                              debitis libero quo incidunt!
+                              Commodi, iusto minus. Harum
+                              veritatis asperiores ex commodi
+                              accusantium!
+                           </p>
+
+                           <a class="button button--black--small">
+                              <span>
+                                 <span>Read More</span>
+                              </span>
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </div>
+
+
+                     </div>
+                     <div class="card2">
+                        <div class="card2__img">
+                           <img src="images/project2.png" alt="" />
+                        </div>
+
+                        <div class="card2__body">
+                           <h4 class="card2__title">Designing</h4>
+                           <p class="card2__paragraph">
+                              Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit.
+                              Facilis, et suscipit quod, deleniti
+                              culpa rerum repellat asperiores
+                              debitis libero quo incidunt!
+                              Commodi, iusto minus. Harum
+                              veritatis asperiores ex commodi
+                              accusantium!
+                           </p>
+
+                           <a class="button button--black--small">
+                              <span>
+                                 <span>Read More</span>
+                              </span>
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </div>
+
+
+                     </div>
+                     <div class="card2 hide-for-mobile">
+                        <div class="card2__img">
+                           <img src="images/project3.png" alt="" />
+                        </div>
+
+                        <div class="card2__body">
+                           <h4 class="card2__title">and Building</h4>
+                           <p class="card2__paragraph">
+                              Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit.
+                              Facilis, et suscipit quod, deleniti
+                              culpa rerum repellat asperiores
+                              debitis libero quo incidunt!
+                              Commodi, iusto minus. Harum
+                              veritatis asperiores ex commodi
+                              accusantium!
+                           </p>
+
+                           <a class="button button--black--small">
+                              <span>
+                                 <span>Read More</span>
+                              </span>
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </div>
+
+
+                     </div>
+                     <div class="card2 hide-for-mobile">
+                        <div class="card2__img">
+                           <img src="images/project4.png" alt="" />
+                        </div>
+
+                        <div class="card2__body">
+                           <h4 class="card2__title">Beautiful Websites</h4>
+                           <p class="card2__paragraph">
+                              Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit.
+                              Facilis, et suscipit quod, deleniti
+                              culpa rerum repellat asperiores
+                              debitis libero quo incidunt!
+                              Commodi, iusto minus. Harum
+                              veritatis asperiores ex commodi
+                              accusantium!
+                           </p>
+
+                           <a class="button button--black--small">
+                              <span>
+                                 <span>Read More</span>
+                              </span>
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </div>
+
+
+                     </div>
+                  </div>
+
+                  <div class="blog__img hide-for-mobile">
+                     <img src="images/blog.png" alt="" />
+                  </div>
+               </div>
             </div>
 
-            <div class="blog__body">
-               <div class="blog__cards">
-                  <div class="card2">
-                     <div class="card2__img">
-                        <img src="images/project1.png" alt="" />
-                     </div>
-
-                     <div class="card2__body">
-                        <h4 class="card2__title">I love</h4>
-                        <p class="card2__paragraph">
-                           Lorem ipsum dolor sit amet
-                           consectetur adipisicing elit.
-                           Facilis, et suscipit quod, deleniti
-                           culpa rerum repellat asperiores
-                           debitis libero quo incidunt!
-                           Commodi, iusto minus. Harum
-                           veritatis asperiores ex commodi
-                           accusantium!
-                        </p>
-
-                        <a class="button button--black--small">
-                           <span>
-                              <span>Read More</span>
-                           </span>
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                        </a>
-                     </div>
-
-
-                  </div>
-                  <div class="card2">
-                     <div class="card2__img">
-                        <img src="images/project2.png" alt="" />
-                     </div>
-
-                     <div class="card2__body">
-                        <h4 class="card2__title">Designing</h4>
-                        <p class="card2__paragraph">
-                           Lorem ipsum dolor sit amet
-                           consectetur adipisicing elit.
-                           Facilis, et suscipit quod, deleniti
-                           culpa rerum repellat asperiores
-                           debitis libero quo incidunt!
-                           Commodi, iusto minus. Harum
-                           veritatis asperiores ex commodi
-                           accusantium!
-                        </p>
-
-                        <a class="button button--black--small">
-                           <span>
-                              <span>Read More</span>
-                           </span>
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                        </a>
-                     </div>
-
-
-                  </div>
-                  <div class="card2 hide-for-mobile">
-                     <div class="card2__img">
-                        <img src="images/project3.png" alt="" />
-                     </div>
-
-                     <div class="card2__body">
-                        <h4 class="card2__title">and Building</h4>
-                        <p class="card2__paragraph">
-                           Lorem ipsum dolor sit amet
-                           consectetur adipisicing elit.
-                           Facilis, et suscipit quod, deleniti
-                           culpa rerum repellat asperiores
-                           debitis libero quo incidunt!
-                           Commodi, iusto minus. Harum
-                           veritatis asperiores ex commodi
-                           accusantium!
-                        </p>
-
-                        <a class="button button--black--small">
-                           <span>
-                              <span>Read More</span>
-                           </span>
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                        </a>
-                     </div>
-
-
-                  </div>
-                  <div class="card2 hide-for-mobile">
-                     <div class="card2__img">
-                        <img src="images/project4.png" alt="" />
-                     </div>
-
-                     <div class="card2__body">
-                        <h4 class="card2__title">Beautiful Websites</h4>
-                        <p class="card2__paragraph">
-                           Lorem ipsum dolor sit amet
-                           consectetur adipisicing elit.
-                           Facilis, et suscipit quod, deleniti
-                           culpa rerum repellat asperiores
-                           debitis libero quo incidunt!
-                           Commodi, iusto minus. Harum
-                           veritatis asperiores ex commodi
-                           accusantium!
-                        </p>
-
-                        <a class="button button--black--small">
-                           <span>
-                              <span>Read More</span>
-                           </span>
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path id="Vector" d="M1 11L11 1M11 1H3M11 1V9" stroke="white" stroke-width="2"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                        </a>
-                     </div>
-
-
-                  </div>
-               </div>
-
-               <div class="blog__img hide-for-mobile">
-                  <img src="images/blog.png" alt="" />
-               </div>
-            </div>
          </div>
       </section>
 

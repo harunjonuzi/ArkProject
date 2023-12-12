@@ -1,4 +1,4 @@
-import "../src/sass/main.scss";
+import "../src/sass/styles.scss";
 import Lenis from "@studio-freight/lenis";
 
 ////////////////////////////////////////

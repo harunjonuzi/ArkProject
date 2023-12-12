@@ -3,23 +3,24 @@
 header {
 
   .overlay {
-    z-index: 99;
-    position: fixed;
+    position: absolute;
+    z-index: 100;
     top: calc(20px + 64px);
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient($clr-black-900, transparent);
+    background-image: linear-gradient($basic-950, transparent);
   }
 
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3rem;
+    padding-block: 2rem;
+    margin-block-end: 3rem;
 
-    @include breakpoint-up(large) {
-      margin-bottom: 5rem;
+    @media (width > 1110px) {
+      margin-block-end: 7rem;
     }
 
     &.open {
@@ -81,9 +82,9 @@ header {
       position: absolute;
       top: 100px;
       width: 90%;
-      // z-index: 100;
+      z-index: 100;
       padding-block: 2rem;
-      background-color: $clr-white-50;
+      background-color: $basic-50;
       border-radius: 0.7rem;
 
       @media (width > 1110px) {

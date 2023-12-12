@@ -1,36 +1,24 @@
 @use 'functions' as *;
 
-$clr-main: #e29a12;
-$clr-black-1000: #000000;
-$clr-black-950: #2D2D2D;
-$clr-black-900: #292929;
-$clr-black-800: #464646;
-$clr-white-50: #ffffff;
-
-$fs-body-sm: 0.75rem;
-$fs-body-base: rem(16);
-$fs-body-md: 1.25rem;
-
-$fs-head-h3: 1.625rem;
-$fs-head-h2: 2.625rem;
-$fs-head-h1: 3.0625rem;
-
-// Font Family
+// 1.0 Font Family
 $ff-season: "the-seasons", sans-serif;
 $ff-poppins: "Poppins", sans-serif;
 
-// Font Sizes
+// 2.0 Font Sizes
+// - Headings
 $fs-heading-h1: rem(54);
 $fs-heading-h2: rem(45);
 $fs-heading-h3: rem(32);
 
+// - Body
 $fs-body-xsmall: rem(12);
 $fs-body-small: rem(15);
 $fs-body-medium: rem(18);
 $fs-body-large: rem(22);
 $fs-body-xlarge: rem(26);
 
-// Font Weight
+
+// 3.0 Font Weight
 $fw-small: 200;
 $fw-medium: 500;
 $fw-large: 700;

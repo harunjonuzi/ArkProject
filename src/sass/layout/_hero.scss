@@ -38,18 +38,17 @@
         position: absolute;
         width: 10rem;
         height: 2px;
-        top: 2rem;
-        color: $clr-main;
-        background-color: $clr-main;
-        bottom: 0.6rem;
-        left: 0;
+        top: 2.1rem;
+        color: $main-500;
+        background-color: $main-500;
+        right: 0.7rem;
         z-index: -100;
 
         @include breakpoint-up(large) {
           height: 4px;
-          width: 14rem;
+          width: 16rem;
           left: 0.1rem;
-          top: 2.8rem;
+          top: 3.4rem;
         }
       }
     }
