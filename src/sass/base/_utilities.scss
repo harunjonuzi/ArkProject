@@ -4,16 +4,12 @@
 /* 🔖 Visibility */
 /* =================================== */
 .hide-for-mobile {
-
-  // hide for tablet and mobile
   @include a.breakpoint-down(medium) {
     display: none !important;
   }
 }
 
 .hide-for-desktop {
-
-  // hide for desktop
   @include a.breakpoint-up(large) {
     display: none !important;
   }
@@ -26,7 +22,7 @@
 }
 
 /* =================================== */
-/* 🔖 Container */
+/* 🔖 Container v1 */
 /* =================================== */
 .container {
   // This will grow to 1110px in desktop size, and on mobile size it will remove 32px from both sides, giving it a natural padding
@@ -34,13 +30,18 @@
   margin-inline: auto;
 }
 
-// v2
+/* =================================== */
+/* 🔖 Container v2 */
+/* =================================== */
 // .container {
 //   max-width: 150rem;
 //   margin-inline: auto;
 //   padding-inline: 10rem;
 // }
 
+/* =================================== */
+/* 🔖 Container v3 */
+/* =================================== */
 // .container {
 //   --padding: #{$container-min-margin-inline} * 2;
 //   --max-width: #{$container-max-width};
@@ -59,3 +60,5 @@
 // .container[data-type="full-bleed"] {
 //   --max-width: 100%;
 // }
+
+/* =================================== */

@@ -51,11 +51,15 @@
     .split {
       display: flex;
     }
-
-    .split ul li {
-      font-size: $fs-body-xsmall;
-    }
   }
+}
 
-  @include breakpoint-up(large) {}
+.hideImg {
+  opacity: 0;
+  transition: 2000ms;
+  transition-property: opacity;
+}
+
+.hideImg.showImg {
+  opacity: 1;
 }

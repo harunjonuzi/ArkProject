@@ -9,7 +9,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient($basic-950, transparent);
+    background-image: linear-gradient($white-950, transparent);
   }
 
   .nav {
@@ -78,7 +78,7 @@ header {
       width: 90%;
       z-index: 100;
       padding-block: 2rem;
-      background-color: $basic-50;
+      background-color: $white-50;
       border-radius: 0.7rem;
 
       @media (width > 1110px) {

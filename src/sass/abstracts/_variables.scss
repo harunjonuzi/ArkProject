@@ -1,8 +1,8 @@
 @use 'functions' as *;
 
 // 1.0 Font Family
-$ff-season: "the-seasons", sans-serif;
 $ff-poppins: "Poppins", sans-serif;
+$ff-seasons: the-seasons, sans-serif;
 
 // 2.0 Font Sizes
 // - Headings
@@ -16,7 +16,6 @@ $fs-body-small: rem(15);
 $fs-body-medium: rem(18);
 $fs-body-large: rem(22);
 $fs-body-xlarge: rem(26);
-
 
 // 3.0 Font Weight
 $fw-small: 200;

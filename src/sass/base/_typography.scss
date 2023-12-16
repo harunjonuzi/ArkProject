@@ -23,7 +23,7 @@ p {
 }
 
 a {
-  color: $basic-900;
+  color: $white-900;
   display: inline-block;
   font-family: inherit;
   font-size: inherit;
@@ -34,6 +34,13 @@ a {
 
 li {
   list-style-type: none;
+  line-height: 2;
+}
+
+@include above(600px) {
+  .footer li {
+    list-style-type: disc;
+  }
 }
 
 ul,
@@ -47,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $ff-season;
+  font-family: $ff-seasons;
   font-weight: $fw-large;
 }
 
@@ -84,5 +91,6 @@ h4,
 .h4 {
   font-family: $ff-poppins;
   font-size: $fs-body-small;
+  letter-spacing: 0.3px;
   font-weight: $fw-small;
 }

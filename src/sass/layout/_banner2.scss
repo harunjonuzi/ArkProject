@@ -1,7 +1,7 @@
 @use '../abstracts/' as *;
 
 .banner2 {
-  background-color: $basic-990;
+  background-color: $white-990;
   padding-block: 4rem;
 
   .content {
@@ -9,17 +9,17 @@
       justify-content: center;
 
       h4 {
-        color: $basic-50;
+        color: $white-50;
       }
     }
 
     .banner2__title {
-      color: $basic-50;
+      color: $white-50;
       text-align: center;
     }
 
     .banner2__paragraph {
-      color: $basic-100;
+      color: $white-100;
       margin-inline: auto;
       text-align: center;
 
