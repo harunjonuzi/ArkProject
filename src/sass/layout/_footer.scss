@@ -108,7 +108,7 @@
 
           &::before {
             position: absolute;
-            content: url('svg/footer-phone.svg');
+            content: url('/svg/footer-phone.svg');
             top: 0.1rem;
             left: -1.5rem;
           }
@@ -123,7 +123,7 @@
 
           &::before {
             position: absolute;
-            content: url('svg/footer-email.svg');
+            content: url('/svg/footer-email.svg');
             top: 0.1rem;
             left: -1.5rem;
           }
@@ -138,7 +138,7 @@
 
           &::before {
             position: absolute;
-            content: url('svg/footer-location.svg');
+            content: url('/svg/footer-location.svg');
             top: 0.1rem;
             left: -1.5rem;
           }
