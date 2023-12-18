@@ -17,7 +17,7 @@ A quick project for an imaginary Accounting firm that helped me refine my skills
 Clone the project:
 
 ```bash
-  git clone https://github.com/harunjonuzi/Website-DigitusAccounting.git
+  git clone https://github.com/harunjonuzi/web-digitus-accounting.git
 ```
 
 Go to the project directory:
