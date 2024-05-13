@@ -1,4 +1,4 @@
-@use '../abstracts/' as *;
+@use "../abstracts/" as *;
 
 .banner {
   display: flex;
@@ -17,7 +17,6 @@
       font-weight: $fw-small;
       font-size: $fs-body-small;
     }
-
   }
 
   @include breakpoint-up(large) {
