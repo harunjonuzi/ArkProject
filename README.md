@@ -1,4 +1,4 @@
-# Website | Digitus Accounting
+# Website - Digitus Accounting
 
 A quick project for an imaginary Accounting firm that helped me refine my skills in writing semantic and accessible HTML, dived deeper into Scss functions and learned animations.
 
