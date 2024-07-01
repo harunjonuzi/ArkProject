@@ -1,6 +1,6 @@
 # Website - Digitus Accounting
 
-A quick project for an imaginary Accounting firm that helped me refine my skills in writing semantic and accessible HTML, dived deeper into Scss functions and learned animations.
+💻️ Accounting landing page UI/UX designed from scratch in Figma, coded in scss, javascript and vite.
 
 ## Tech Stack
 
